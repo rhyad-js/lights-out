@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+.Start {
+  margin: 10px 0 50px 0;
+}
+
+.App button {
+  margin: 25px;
+  font-family: neon;
+  background: none;
+  font-size: 250%;
+  color: aqua;
+  border: none;
+}
+
+.App button:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.App-buttons {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 500px;
+  margin: auto;
+}
+
+.App-restart {
+  margin: 25px;
+  font-family: neon;
+  background: none;
+  font-size: 250%;
+  color: aqua;
+  border: none;
+}
+
+.App-restart:hover {
+  cursor: pointer;
+  color: red;
+}
